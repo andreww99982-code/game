@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Салонная Смена</string>
+    <string name="game_title">Салонная Смена</string>
+    <string name="btn_play">Начать игру</string>
+    <string name="btn_leaderboard">Рекорды</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="select_character">Выбери персонажа</string>
+    <string name="select_location">Выбери локацию</string>
+    <string name="roger_production">Roger Production</string>
+</resources>
