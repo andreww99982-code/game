@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.SalonSmena" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#1a1a2e</item>
+        <item name="colorPrimaryDark">#16213e</item>
+        <item name="colorAccent">#e94560</item>
+    </style>
+    <style name="Theme.SalonSmena.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
