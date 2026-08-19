@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
-        <activity android:name=".CharacterSelectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
-        <activity android:name=".LocationSelectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
-        <activity android:name=".GameActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
-        <activity android:name=".LeaderboardActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
-        <activity android:name=".GameResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".MainActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".CharacterSelectActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".LocationSelectActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".GameActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".LeaderboardActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
+        <activity android:name=".GameResultActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.SalonSmena.NoActionBar"/>
     </application>
 </manifest>
