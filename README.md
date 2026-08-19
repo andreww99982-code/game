@@ -75,13 +75,19 @@ Roger Production → Главное меню → Выбор персонажа �
 
 ## 🔧 Сборка APK
 
+Причина прошлых падений GitHub Actions была в отсутствующем файле `gradle/wrapper/gradle-wrapper.jar`. В репозиторий добавлен полноценный Gradle Wrapper, поэтому основной build step остаётся стандартным:
+
+```bash
+./gradlew assembleDebug --no-daemon --stacktrace
+```
+
 ### Требования
 - JDK 17+
 - Android SDK (API 21+)
 
 ### Команда
 ```bash
-./gradlew assembleDebug
+./gradlew assembleDebug --no-daemon --stacktrace
 ```
 
 APK: `app/build/outputs/apk/debug/app-debug.apk`
