@@ -32,10 +32,10 @@ class SplashView(context: Context) : View(context) {
     fun startAnimation(onDone: () -> Unit) {
         callback = onDone
         started = true
-        animate()
+        runSplashAnimation()
     }
 
-    private fun animate() {
+    private fun runSplashAnimation() {
         val startTime = System.currentTimeMillis()
         val duration = 2000L
         post(object : Runnable {
